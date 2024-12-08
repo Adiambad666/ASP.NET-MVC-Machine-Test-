@@ -26,20 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Dot.Net Machine test\WebDemo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Dot.Net Machine test/WebDemo/Views/Home/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Home/CrudeOption.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcnVkZU9wdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Dot.Net Machine test/WebDemo/Views/Home/DeleteView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Dot.Net Machine test/WebDemo/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Dot.Net Machine test/WebDemo/Views/Home/Option.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcHRpb24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Dot.Net Machine test/WebDemo/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Dot.Net Machine test/WebDemo/Views/Home/DisplayAllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNwbGF5QWxsUHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Dot.Net Machine test/WebDemo/Views/Home/UpdateView.cshtml]

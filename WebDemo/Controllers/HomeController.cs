@@ -16,15 +16,13 @@ namespace WebDemo.Controllers
             context = context1;
         }
 
-        public IActionResult Index()
+        public IActionResult AddProduct()
         {
-            string up = "Add";
-            ViewBag.Message = up;
             return View();
         }
 
         [HttpGet]
-        public IActionResult Privacy()
+        public IActionResult DisplayAllProducts()
         {
             var Data=context.products.ToList();
             return View(Data);
@@ -47,14 +45,12 @@ namespace WebDemo.Controllers
             Product p1 = context.products.Find(product.ProductId);
             if(p1!=null)
             {
-                string up = "Update";
-                ViewBag.Message = up;
                 p1.ProductName = product.ProductName;
                 p1.CategoryName = product.CategoryName;
                 p1.CategoryID = product.CategoryID;
                 context.products.Update(p1);
                 context.SaveChanges();
-                return View("Option");
+                return View("CrudeOption");
             }
             return View("Error");
         }
@@ -74,21 +70,21 @@ namespace WebDemo.Controllers
         [HttpPost]
         public IActionResult Submit(Product p)
         {
-            if (ModelState.IsValid) // Ensures the data is valid
+            if (ModelState.IsValid) 
             {
                 context.products.Add(p);
                 context.SaveChanges();
-                return View("Option");
+                return View("CrudeOption");
             }
             else
             {
-                // If model validation fails
+         
                 return View("Error");
             }
         }
 
         [HttpGet]
-        public IActionResult Option()
+        public IActionResult CrudeOption()
         {
             return View();
         }

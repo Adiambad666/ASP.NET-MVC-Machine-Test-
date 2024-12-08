@@ -334,3 +334,4 @@ C:\Dot.Net Machine test\WebDemo\obj\Debug\net8.0\scopedcss\projectbundle\WebDemo
 C:\Dot.Net Machine test\WebDemo\obj\Debug\net8.0\WebDemo.csproj.Up2Date
 C:\Dot.Net Machine test\WebDemo\obj\Debug\net8.0\WebDemo.genruntimeconfig.cache
 C:\Dot.Net Machine test\WebDemo\obj\Debug\net8.0\ref\WebDemo.dll
+C:\Dot.Net Machine test\WebDemo\obj\Debug\net8.0\WebDemo.sourcelink.json
