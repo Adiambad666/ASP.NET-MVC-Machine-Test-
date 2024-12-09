@@ -70,17 +70,10 @@ namespace WebDemo.Controllers
         [HttpPost]
         public IActionResult Submit(Product p)
         {
-            if (ModelState.IsValid) 
-            {
                 context.products.Add(p);
                 context.SaveChanges();
                 return View("CrudeOption");
-            }
-            else
-            {
-         
-                return View("Error");
-            }
+           
         }
 
         [HttpGet]

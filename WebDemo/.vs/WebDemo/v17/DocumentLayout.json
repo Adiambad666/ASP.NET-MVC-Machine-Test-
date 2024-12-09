@@ -7,28 +7,32 @@
       "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:views\\home\\displayallproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\views\\home\\updateview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:views\\home\\updateview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\views\\home\\deleteview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:views\\home\\deleteview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\views\\home\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:views\\home\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\views\\home\\updateview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:views\\home\\updateview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\views\\home\\crudeoption.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:views\\home\\crudeoption.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\views\\home\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:views\\home\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +41,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|c:\\dot.net machine test\\webdemo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FECD6F0B-8238-414C-8010-8E3009892651}|WebDemo.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,65 +74,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:00:58.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:25:23.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:15:09.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T17:08:08.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T01:43:48.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T01:00:35.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UpdateView.cshtml",
               "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Views\\Home\\UpdateView.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\UpdateView.cshtml",
               "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Views\\Home\\UpdateView.cshtml",
               "RelativeToolTip": "Views\\Home\\UpdateView.cshtml",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJUAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-07T23:56:25.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
               "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T22:57:48.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DeleteView.cshtml",
               "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Views\\Home\\DeleteView.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\DeleteView.cshtml",
               "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Views\\Home\\DeleteView.cshtml",
               "RelativeToolTip": "Views\\Home\\DeleteView.cshtml",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAAAFwAAAApAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAHQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-07T21:47:35.518Z",
               "EditorCaption": ""
@@ -129,46 +197,46 @@
               "RelativeDocumentMoniker": "Views\\Home\\DisplayAllProducts.cshtml",
               "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Views\\Home\\DisplayAllProducts.cshtml",
               "RelativeToolTip": "Views\\Home\\DisplayAllProducts.cshtml",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAAE4AAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-07T21:30:22.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CrudeOption.cshtml",
               "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Views\\Home\\CrudeOption.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\CrudeOption.cshtml",
               "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Views\\Home\\CrudeOption.cshtml",
               "RelativeToolTip": "Views\\Home\\CrudeOption.cshtml",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAAD4AAABgAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADwAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-07T21:17:22.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEgAAAAkAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T21:15:13.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddProduct.cshtml",
               "DocumentMoniker": "C:\\Dot.Net Machine test\\WebDemo\\Views\\Home\\AddProduct.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\AddProduct.cshtml",
               "ToolTip": "C:\\Dot.Net Machine test\\WebDemo\\Views\\Home\\AddProduct.cshtml",
               "RelativeToolTip": "Views\\Home\\AddProduct.cshtml",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAAFEAAAAZAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-07T21:03:25.741Z",
               "EditorCaption": ""

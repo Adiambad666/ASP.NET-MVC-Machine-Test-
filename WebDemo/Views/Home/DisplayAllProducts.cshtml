@@ -1,5 +1,7 @@
 ﻿@model IEnumerable<WebDemo.Models.Product>
-
+@{
+    int index = 1;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,15 +99,16 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var v1 in Model.Select((value, index) => new { value, index }))
+                @foreach (var v1 in Model)
                 {
                     <tr>
-                        <td>@(v1.index + 1)</td>
-                        <td>@v1.value.ProductId</td>
-                        <td>@v1.value.ProductName</td>
-                        <td>@v1.value.CategoryID</td>
-                        <td>@v1.value.CategoryName</td>
+                        <td>@index</td>
+                        <td>@v1.ProductId</td>
+                        <td>@v1.ProductName</td>
+                        <td>@v1.CategoryID</td>
+                        <td>@v1.CategoryName</td>
                     </tr>
+                    ++index;
                 }
             </tbody>
         </table>
