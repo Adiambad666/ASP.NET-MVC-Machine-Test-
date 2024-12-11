@@ -40,7 +40,7 @@ namespace WebDemo.Controllers
                 c1.InputCategoryId = CategoryId;
                 c1.CategoryName = categoryName;
                 context.categories.Add(c1);
-                context.SaveChanges(); // This line might throw an exception
+                context.SaveChanges(); 
 
             return RedirectToAction("FirstPage", "Home");
 

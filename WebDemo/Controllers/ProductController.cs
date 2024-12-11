@@ -44,7 +44,7 @@ namespace WebDemo.Controllers
             p2.Match = Match;
                 context.products.Add(p2);
                 context.SaveChanges();
-            return RedirectToAction("FirstPage", "Home"); // Or another view after saving the product
+            return RedirectToAction("FirstPage", "Home"); 
         }
 
         [HttpGet]

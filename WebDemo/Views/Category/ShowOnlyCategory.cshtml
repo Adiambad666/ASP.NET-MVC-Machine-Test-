@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<WebDemo.Models.Category>  
 
-<!-- Table to display categories -->
+
 <button type="button" class="btn btn-secondary" onclick="window.location.href='@Url.Action("FirstPage", "Home")';">Back</button>
 <table class="table table-bordered category-table">
     <thead>
@@ -20,19 +20,19 @@
     </tbody>
 </table>
 
-<!-- Back Button -->
+
 <button type="button" class="btn btn-secondary back-button" onclick="window.location.href='@Url.Action("FirstPage", "Home")';">Back</button>
 
-<!-- CSS Styling -->
+
 <style>
-    /* Page Title Styling */
+  
     .page-title {
         text-align: center;
         color: #333;
         margin-bottom: 20px;
     }
 
-    /* Table Styling */
+   
     .category-table {
         width: 80%;
         margin: 0 auto;
@@ -58,7 +58,7 @@
         background-color: #ddd;
     }
 
-    /* Button Styling */
+  
     .back-button {
         display: block;
         width: 150px;

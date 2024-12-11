@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product and Category Management</title>
     <style>
-        /* General Styles */
+      
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -20,12 +20,12 @@
             gap: 20px;
         }
 
-        /* Container for button groups */
+        
         .add-buttons, .delete-buttons, .show-buttons, .update-buttons {
             display: flex;
             flex-direction: column;
-            gap: 15px; /* Add space between buttons */
-            margin-right: 40px; /* Space on the right to align with other buttons */
+            gap: 15px; 
+            margin-right: 40px; 
         }
 
         button {
@@ -36,7 +36,7 @@
             cursor: pointer;
             border-radius: 5px;
             transition: background-color 0.3s, transform 0.3s;
-            width: 200px; /* Set a standard width for buttons */
+            width: 200px; 
             margin: 10px;
         }
 
@@ -48,46 +48,44 @@
                 outline: none;
             }
 
-        /* Specific Button Styles */
-        /* Add Actions */
+        
         .btn-add {
-            background-color: #4CAF50; /* Green for Add actions */
+            background-color: #4CAF50; 
         }
 
             .btn-add:hover {
                 background-color: #45a049;
             }
 
-        /* Show Actions */
+        
         .btn-show {
-            background-color: #2196F3; /* Blue for Show actions */
+            background-color: #2196F3; 
         }
 
             .btn-show:hover {
                 background-color: #1976D2;
             }
 
-        /* Show All Action */
         .btn-show-all {
-            background-color: #FFC107; /* Amber for Show All */
+            background-color: #FFC107; 
         }
 
             .btn-show-all:hover {
                 background-color: #FFB300;
             }
 
-        /* Delete Actions */
+      
         .btn-delete {
-            background-color: #F44336; /* Red for Delete actions */
+            background-color: #F44336; 
         }
 
             .btn-delete:hover {
                 background-color: #D32F2F;
             }
 
-        /* Update Actions */
+       
         .btn-update {
-            background-color: #9C27B0; /* Purple for Update actions */
+            background-color: #9C27B0; 
         }
 
             .btn-update:hover {
@@ -97,31 +95,31 @@
 </head>
 <body>
     <div class="button-container">
-        <!-- Container for "Add Product" and "Add Category" in a single column -->
+      
         <div class="add-buttons">
             <button class="btn-add" onclick="location.href='@Url.Action("AddProduct", "Product")'">Add Product</button>
             <button class="btn-add" onclick="location.href='@Url.Action("AddCategory", "Category")'">Add Category</button>
         </div>
 
-        <!-- Container for "Delete Product" and "Delete Category" buttons in a single column -->
+  
         <div class="delete-buttons">
             <button class="btn-delete" onclick="location.href='@Url.Action("DeleteProduct", "Product")'">Delete Product</button>
             <button class="btn-delete" onclick="location.href='@Url.Action("DeleteCategory", "Category")'">Delete Category</button>
         </div>
 
-        <!-- Container for "Update Product" and "Update Category" buttons in a single column -->
+    
         <div class="update-buttons">
             <button class="btn-update" onclick="location.href='@Url.Action("UpdateProduct", "Product")'">Update Product</button>
             <button class="btn-update" onclick="location.href='@Url.Action("UpdateCategory", "Category")'">Update Category</button>
         </div>
 
-        <!-- Container for "Show Only Product" and "Show Only Category" buttons in a single column -->
+  
         <div class="show-buttons">
             <button class="btn-show" onclick="location.href='@Url.Action("ShowOnlyProduct", "Product")'">Show Only Product</button>
             <button class="btn-show" onclick="location.href='@Url.Action("ShowOnlyCategory", "Category")'">Show Only Category</button>
         </div>
 
-        <!-- Show All Section -->
+    
         <button class="btn-show-all" onclick="location.href='@Url.Action("ShowAllProductWithCategory", "Product")'">Show All Product With Category</button>
     </div>
 </body>
