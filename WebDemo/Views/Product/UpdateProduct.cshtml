@@ -1,4 +1,4 @@
-﻿@model IEnumerable<WebDemo.Models.Product>
+﻿@model IEnumerable<WebDemo.Models.Products>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -39,7 +39,7 @@
         }
 
         table {
-            width: 80%;
+            width: 60%; /* Decreased from 80% to 60% */
             margin: 0 auto;
             border-collapse: collapse;
             background-color: white;
@@ -66,8 +66,8 @@
             background-color: #ddd;
         }
 
-        .back-btn {
-            background-color: #f44336;
+        .update-btn {
+            background-color: #2196F3;
             color: white;
             padding: 8px 16px;
             text-decoration: none;
@@ -75,8 +75,8 @@
             display: inline-block;
         }
 
-            .back-btn:hover {
-                background-color: #e53935;
+            .update-btn:hover {
+                background-color: #1976D2;
             }
     </style>
 </head>
@@ -90,27 +90,23 @@
     }
     else
     {
-        <a href="@Url.Action("CrudeOption", "Home")" class="back-btn1">Back</a>
+        <button type="button" class="btn btn-secondary" onclick="window.location.href='@Url.Action("FirstPage", "Home")';">Back</button>
         <table>
             <thead>
                 <tr>
-                    <th>Product ID</th>
+                    <th>Product Id</th>
                     <th>Product Name</th>
-                    <th>Category ID</th>
-                    <th>Category Name</th>
-                    <th>Delete</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var v1 in Model)
+                @foreach (var category in Model)
                 {
                     <tr>
-                        <td>@v1.ProductId</td>
-                        <td>@v1.ProductName</td>
-                        <td>@v1.CategoryID</td>
-                        <td>@v1.CategoryName</td>
+                        <td>@category.IPNumber</td>
+                        <td>@category.ProductName</td>
                         <td>
-                            <a href="@Url.Action("Delete", "Home", new { id = v1.ProductId })" class="back-btn">Delete</a>
+                            <a href="@Url.Action("Update", "Product", new { id = category.ProductId })" class="update-btn">Update</a>
                         </td>
                     </tr>
                 }

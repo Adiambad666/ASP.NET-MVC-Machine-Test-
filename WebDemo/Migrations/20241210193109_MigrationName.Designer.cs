@@ -11,8 +11,8 @@ using WebDemo.Data;
 namespace WebDemo.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241207174244_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20241210193109_MigrationName")]
+    partial class MigrationName
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,6 +23,24 @@ namespace WebDemo.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Category", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("Category_Name");
+                });
 
             modelBuilder.Entity("WebDemo.Models.Product", b =>
                 {
@@ -35,18 +53,31 @@ namespace WebDemo.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<string>("CategoryName")
+                    b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProductName")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
                     b.HasKey("ProductId");
 
-                    b.ToTable("All_Product_Name");
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Product_Name_List");
+                });
+
+            modelBuilder.Entity("WebDemo.Models.Product", b =>
+                {
+                    b.HasOne("Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

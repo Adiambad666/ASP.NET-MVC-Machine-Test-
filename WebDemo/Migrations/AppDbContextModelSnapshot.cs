@@ -21,7 +21,43 @@ namespace WebDemo.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("WebDemo.Models.Product", b =>
+            modelBuilder.Entity("CategoryProducts", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductsProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CategoryId", "ProductsProductId");
+
+                    b.HasIndex("ProductsProductId");
+
+                    b.ToTable("CategoryProducts");
+                });
+
+            modelBuilder.Entity("WebDemo.Models.Category", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("InputCategoryId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("Category_Name");
+                });
+
+            modelBuilder.Entity("WebDemo.Models.Products", b =>
                 {
                     b.Property<int>("ProductId")
                         .ValueGeneratedOnAdd()
@@ -29,21 +65,34 @@ namespace WebDemo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
 
-                    b.Property<int>("CategoryId")
+                    b.Property<int>("IPNumber")
                         .HasColumnType("int");
 
-                    b.Property<string>("CategoryName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Match")
+                        .HasColumnType("int");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ProductId");
 
-                    b.ToTable("All_Product_Name");
+                    b.ToTable("All_p");
+                });
+
+            modelBuilder.Entity("CategoryProducts", b =>
+                {
+                    b.HasOne("WebDemo.Models.Category", null)
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebDemo.Models.Products", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

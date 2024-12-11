@@ -1,26 +1,13 @@
-﻿@model IEnumerable<WebDemo.Models.Product>
-@{
-    int index = 1;
-}
+﻿@model IEnumerable<WebDemo.Models.Products>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Details</title>
+    <title>Product List</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f9;
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-
-        .back-btn {
+        .back-btn1 {
             position: absolute;
             top: 20px;
             right: 20px;
@@ -36,21 +23,31 @@
             margin-left: -20px;
         }
 
-            .back-btn:hover {
+            .back-btn1:hover {
                 background-color: #0056b3;
             }
 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
         table {
-            width: 60%;
+            width: 60%; /* Decreased from 80% to 60% */
             margin: 0 auto;
             border-collapse: collapse;
             background-color: white;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
         }
 
         th, td {
-            padding: 8px;
+            padding: 10px;
             text-align: left;
             border: 1px solid #ddd;
             font-size: 14px;
@@ -69,16 +66,21 @@
             background-color: #ddd;
         }
 
-        .no-data {
-            text-align: center;
-            font-size: 1.2em;
-            color: #d9534f;
+        .back-btn {
+            background-color: #f44336;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
         }
+
+            .back-btn:hover {
+                background-color: #e53935;
+            }
     </style>
 </head>
 <body>
-
-    <a href="@Url.Action("CrudeOption", "Home")" class="back-btn">Back</a>
 
     <h1>Product List</h1>
 
@@ -88,27 +90,25 @@
     }
     else
     {
+        <button type="button" class="btn btn-secondary" onclick="window.location.href='@Url.Action("FirstPage", "Home")';">Back</button>
         <table>
             <thead>
                 <tr>
-                    <th>Sr. No.</th>
-                    <th>Product ID</th>
+                    <th>Product Id</th>
                     <th>Product Name</th>
-                    <th>Category ID</th>
-                    <th>Category Name</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var v1 in Model)
+                @foreach (var category in Model)
                 {
                     <tr>
-                        <td>@index</td>
-                        <td>@v1.ProductId</td>
-                        <td>@v1.ProductName</td>
-                        <td>@v1.CategoryID</td>
-                        <td>@v1.CategoryName</td>
+                        <td>@category.IPNumber</td>
+                        <td>@category.ProductName</td>
+                        <td>
+                            <a href="@Url.Action("Delete", "Product", new { id = category.ProductId })" class="back-btn">Delete</a>
+                        </td>
                     </tr>
-                    ++index;
                 }
             </tbody>
         </table>

@@ -26,6 +26,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Dot.Net Machine test\WebDemo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Dot.Net Machine test/WebDemo/Views/Category/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Category/DeleteCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Category/NotValid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcTm90VmFsaWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Category/ShowOnlyCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2hvd09ubHlDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Home/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Dot.Net Machine test/WebDemo/Views/Home/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,16 +62,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcnVkZU9wdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Dot.Net Machine test/WebDemo/Views/Home/DeleteView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVWaWV3LmNzaHRtbA==
+[C:/Dot.Net Machine test/WebDemo/Views/Home/FirstPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaXJzdFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Dot.Net Machine test/WebDemo/Views/Home/DisplayAllProducts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNwbGF5QWxsUHJvZHVjdHMuY3NodG1s
+[C:/Dot.Net Machine test/WebDemo/Views/Product/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Dot.Net Machine test/WebDemo/Views/Home/UpdateView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGVWaWV3LmNzaHRtbA==
+[C:/Dot.Net Machine test/WebDemo/Views/Product/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Product/DeleteProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Product/ShowAllProductWithCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93QWxsUHJvZHVjdFdpdGhDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Product/ShowOnlyProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93T25seVByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Product/UpdateP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dot.Net Machine test/WebDemo/Views/Product/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Dot.Net Machine test/WebDemo/Views/Shared/Error.cshtml]

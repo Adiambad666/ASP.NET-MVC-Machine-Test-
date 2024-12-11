@@ -9,7 +9,7 @@ namespace WebDemo.Data
         {
 
         }
-        public DbSet<Product> products { get; set; }
-
+        public DbSet<Products> products { get; set; }
+        public DbSet<Category> categories { get; set; }
     }
 }
